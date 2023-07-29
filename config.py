@@ -6,14 +6,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "").split(",") if i.strip()] 
+API_ID = int(os.getenv("API_ID", "14232290"))
+API_HASH = os.environ.get("API_HASH", "72f54b0283f40d476b2263a247253e9b")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "16375322897:AAGkkWRPbcKohPZB-dvNtjroEOTDJAf5f0o")
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS", "").split("1882381432") if i.strip()] 
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
-DATABASE_URL = os.getenv("DATABASE_URL", "Mongodb url") 
-OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Nokart")
+DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Nokart:aadi@lali@nokart.azzth4g.mongodb.net/?retryWrites=true&w=majority") 
+OWNER_ID =  int(os.environ.get("OWNER_ID", "1882381432")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
