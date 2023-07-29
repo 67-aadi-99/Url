@@ -16,8 +16,8 @@ DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Nokart:aadi@lali@nokart.
 OWNER_ID =  int(os.environ.get("OWNER_ID", "1882381432")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "Logs Channels Id")) 
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "Updates Channel User name Without @") # For Force Subscription
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "nokart_Community")) 
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "nokart_shop") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", 'https://links.nokart.shop/content/1681247132897-(1).jpg') # image when someone hit /start
 LINK_BYPASS = "False"
