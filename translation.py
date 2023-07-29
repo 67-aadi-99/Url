@@ -1,13 +1,13 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_MESSAGE = '''**Hi, {}**
-I am EZ4Short bot, bulk link converter with your posts/messages. I can convert & earn money directly from your links.
+I am Nokart UrlShortner bot, bulk link converter with your posts/messages. I can convert directly from your links.
 '''
 
 HELP_MESSAGE = '''**Hi, {}**
-A bot to short link support bulk link conversion. I can convert links directly from your EZ4Short account.
+A bot to short link support bulk link conversion. I can convert links directly from your links.nokart.shop  account.
     
-1. Go To 👉 https://bit.ly/EZ4Short  
+1. Go To 👉 https://links.nokart.shop/developers  
 2. Then Copy API Key
 3. Then long press /api command then paste your API Key (see example to understand more...)
 
@@ -19,14 +19,14 @@ Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 **💁‍♀️ Hit** 👉 /help To get help.
 **➕ Hit** 👉 /footer Adding your custom footer to bot.
 
-**Contact** 👉 @Jakeedot (For support)
+**Contact** 👉 @IG_67_aadi_99 (For support)
 '''
 
-ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
+ABOUT_TEXT = '''**Hey! My name is @UrlShortner_Nokart_bot.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **EZ4Short** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **Nokart** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
@@ -36,7 +36,7 @@ ABOUT_TEXT = '''**Hey! My name is @EZ4ShortBot.**
 
 • **No** need to share **password or email** to convert links.**
 
- **Contact** 👉 @Jakeedot (For support)
+ **Contact** 👉 @IG_67_aadi_99 (For support)
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -45,7 +45,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/reUpdates | Updates"""
+Ex: https://t.me/nokart_shop | Updates"""
 
 
 ADMINS_MESSAGE = """
@@ -76,7 +76,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://bit.ly/EZ4Short')
+        InlineKeyboardButton('Get Api', url=f'https://links.nokart.shop/developers')
     ]
 ])
 
@@ -90,19 +90,19 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://ez4short.com/ref/jakeedot)
+- Website: [{base_site}](https://nokart.shop/)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
-- Replace Channel Username: @{username}
+- Replace Channel Username: @nokart_shop
 
 - Header Text: 
-{header_text}
+Hey there,
 
 - Footer Text: 
-{footer_text}
+by NoKart
 
-- Banner Image: {banner_image}
+- Banner Image: https://links.nokart.shop/content/1681247132897-(1).jpg
 """
 
 
@@ -111,7 +111,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
 
-Get API From [{base_site}](https://ez4short.com/ref/jakeedot)
+Get API From [{base_site}](https://links.nokart.shop/developers)
 
 Current API: `{shortener_api}`"""
 
@@ -129,18 +129,18 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hi! {}, I am EZ4Short bot, bulk link converter bot From Linked Your EZ4Short Account,**
+USERNAME_TEXT = """**Hi! {}, I am Nokart Url Shortner bot, bulk link converter bot From Linked Your links.nokart.shop Account,**
 
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @EZ4Short
+/channel @nokart_shop
 Or
-/channel https://t.me/EZ4Short
+/channel https://t.me/nokart_shop
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @Jakeedot For More Help -**"""
+**- Message @IG_67_aadi_99 For More Help -**"""
 
 BANNER_IMAGE = """
 **Usage:** `/banner_image image_url` or reply to any Image with this command
@@ -149,7 +149,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b387a.jpg`"""
+Eg: `/banner_image https://links.nokart.shop/content/1681247132897-(1).jpg`"""
 
 
 BANNED_USER_TXT = """
